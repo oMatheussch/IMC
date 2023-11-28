@@ -1,0 +1,74 @@
+#icalcularnovamente {
+    text-decoration: none;
+    color: black;
+    display: flex;
+
+
+}
+
+.cnome {
+    width: 300px;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: rgb(110, 190, 186);
+    margin-left: 35%;
+}
+
+.csexo {
+    width: 300px;
+    padding: 15px;
+    border-radius: 25px;
+    margin-left: 35%;
+    background-color: rgb(110, 190, 186);
+}
+
+.cIdade {
+    width: 300px;
+    padding: 15px;
+    border-radius: 25px;
+    margin-left: 35%;
+    background-color: rgb(110, 190, 186);
+}
+
+.caltura {
+    width: 300px;
+    padding: 15px;
+    border-radius: 25px;
+    margin-left: 35%;
+    background-color: rgb(110, 190, 186)
+}
+
+.cpeso {
+    width: 300px;
+    padding: 15px;
+    border-radius: 25px;
+    margin-left: 35%;
+    background-color: rgb(110, 190, 186);
+}
+
+h1 {
+    font-size: 40px;
+    margin-left: 36%;
+}
+
+p {
+    font-size: 20px;
+    margin-left: 35%;
+}
+
+button {
+   background-color: white;
+   border-radius: 5px;
+   margin-left: 35%;
+   width: 200px;
+}
+
+button:hover {
+    color: rgb(170, 83, 83);
+}
+
+p {
+    font-size: sma  ller;
+    margin-left: 35%;
+    margin: 0%;
+}

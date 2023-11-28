@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de IMC</title>
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="imc.css">
+    <script src="imc.js"></script>
+</head>
+<body>
+    <h1>Calculo de IMC</h1>
+    <br>
+    <div class="cnome">
+        <label for="inome">Nome</label>
+            <input type="text" id="inome" placeholder="Nome">
+    </div>
+    <br>
+
+    <div class="csexo">
+        <label for="isexo">Sexo:</label>
+            <select name="sexo" id="isexo">
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+            </select>
+    </div>
+    <br>
+    
+    <div class="cIdade">
+        <label for="iidade">Idade</label>
+            <input type="number" placeholder="Anos" id="iidade">
+    </div>
+    <br>
+
+    <div class="caltura">
+        <label for="ialtura">Altura</label>
+            <input type="number" placeholder="Metros" id="ialtura" onkeydown="DesabilitaExemplo('TextoExemplo')">
+    </div>
+    <br>
+
+    <div class="cpeso">
+        <label for="ipeso">Peso</label>
+            <input type="number" placeholder="Quilos" id="ipeso" onkeydown="DesabilitaExemplo1('TextoExemplo1')">
+    </div>
+    <br>
+
+    <button onclick="CalculaIMC('inome,isexo,iidade,ialtura,ipeso,dresultado')" id="calcula">Calcular</button> <br>
+    <button><a id="icalcularnovamente" href="imc.html">Apagar</button></a> <br>
+
+    <div class="cresultado" id="dresultado"></div>
+    <br>
+</body>
+</html>
